@@ -182,3 +182,23 @@ git status
 git status
 vin .gitignore
 vim .gitignore
+echo $SHELL
+exit
+vim .gitignore
+git status
+git add .gitignore
+git diff --cached
+git r
+git rm --cached .ssh
+git rm --cached -r .ssh
+git status
+la .ssh
+la .ssh
+ls .ssh
+git com
+git co
+#git commit -am 'Track most 
+git commit -am 'Track most dot-files.'
+echo $SHELL
+bash
+exit
