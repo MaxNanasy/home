@@ -202,3 +202,159 @@ git commit -am 'Track most dot-files.'
 echo $SHELL
 bash
 exit
+cd bin
+git init bin
+mkdir bin
+cd bin
+git init
+cd ..
+vim .gitignore
+git commit -am 'Remove dead .gitignore reference.'
+git show
+git commit rebase -i HEAD^
+git commit rebase -i HEAD~
+git revparse HEAD
+git rev-parse HEAD
+git rev-parse HEAD^
+git  rebase -i 133e5
+git status
+git --version
+git rebase --interactive HEAD^
+git diff
+git 
+git --version
+locate man
+vi .bashrc
+vim .bashrc
+. .bashrc
+ls -A
+echo $PATH
+. .bashrc
+. .ba*
+source .bashrc
+cat .bashrc
+git help -w
+git help
+git help rebase
+git help rebase
+git help -w rebase
+git status
+echo $PATH
+. .bashrc
+echo {a,b}
+exit
+git status
+echo $PATH
+. .bashrc
+bash .bashrc
+echo $PATH
+bash
+echo {a,b}
+cat /etc/shells
+cat /etc/shell
+cat /etc/passwd
+which bash
+chsh
+passwd --help
+sudo
+sudoedit
+sudoedit /etc/passwd
+su
+sudoedit /etc/passwd
+ls /etc
+ls /etc/
+cat /etc/master.passwd
+sudo cat /etc/passwd
+sudo cat /etc/master.passwd
+sudoedit /etc/master.passwd
+echo $PATH
+. .bashrc
+echo $SHELL
+vim .bash_profile
+vim .bash_profile
+vim .bash_profile
+echo $BASH
+echo $SHELL
+echo $PATH
+git status
+rm .*swp
+git add .bash_profile
+git commit -m 'Add .bash_profile that just delegates to .bashrc.'
+git add .bashrc
+cat .bashrc
+git commit -m 'Add .bashrc that prepends ~/bin to $PATH.'
+git status
+git diff
+ls
+cd bin
+ls -A
+git status
+git log
+la refs
+ls refs
+ls .git/refs
+ls .git/refs/tags
+ls .git/refs/heada
+ls .git/refs/heads
+ls .git/
+cat .git/index
+zpipe
+gcc
+gcc --version
+dpkg -i Documents/fake-libgcc_1.0_iphoneos-arm.deb 
+dpkg -i Documents/fake-libgcc_1.0_iphoneos-arm.deb 
+sudo dpkg -i Documents/fake-libgcc_1.0_iphoneos-arm.deb 
+gcc
+gcc --version
+wget
+wget -h
+wget -O /dev/stdout http://www.zlib.net/zpipe.c | gcc -
+echo 3 > /dev/stdout
+echo 3 >> /dev/stdout
+ls -l /dev
+echo 3 >> /dev/stdout
+#abc
+set -o vi
+a
+vim
+git diff
+git commit .bash_profile 
+wget -O- http://www.zlib.net/zpipe.c | gcc -
+gcc -h
+gcc --help
+wget -O- http://www.zlib.net/zpipe.c >
+wget -O- http://www.zlib.net/zpipe.c | gcc -xc -
+wget  http://www.zlib.net/zpipe.c>
+wget  http://www.zlib.net/zpipe.c
+gcc -lz zpipe.c
+cd Documents/
+ls 
+cp -r include-2.0-sdk-ready-for-iphone/* /usr/include
+sudo cp -r include-2.0-sdk-ready-for-iphone/* /usr/include
+cd
+gcc zpipe.c
+ls /usr/include
+ls -d  /usr/include
+ls -d  /usr/include
+ls -d  /usr/include/
+ls /usr/include/
+ls -l /usr/include/
+ls -l /usr/include/sys
+sudo chown -R a+r /usr/include
+sudo chmod -R a+r /usr/include
+gcc zpipe.c
+sudo find /usr/include -type d -exec chown a+x {} +
+gcc zpipe.c
+gcc zpipe.c
+gcc zpipe.c 2>&1 | less
+ls -l /usr/include/
+ls -l /usr/include/sys
+ls -l /usr/include/
+sudo find /usr/include -type d -exec echo a+x {} +
+sudo find /usr/include/ -type d -exec echo a+x {} +
+sudo find /usr/include/ -type d -exec echo a+x {} +
+sudo find /usr/include/ -type d -exec chmod a+x {} +
+gcc zpipe.c 2>&1 | less
+gcc zpipe.c 2>&1 | less
+git --version
+git --version
