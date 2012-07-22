@@ -5,3 +5,4 @@
 	email = max.nanasy@gmail.com
 [alias]
 	unstage = reset HEAD
+	i-made-this = filter-branch --env-filter i-made-these.env-filter
