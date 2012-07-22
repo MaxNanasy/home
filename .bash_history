@@ -1,9 +1,3 @@
-ssh localhost
-exit
-ls /var/mobile
-ls /var/mobile/Library
-mkdir /var/mobile/Library/Downloads
-ls -l /var/mobile
 ls -l /var/mobile/Library
 ls -l /var/mobile/Library | less
 chmod a+w /var/mobile/Library/Downloads
@@ -498,3 +492,9 @@ git diff .gitconfig
 git commit .gitconfig -m 'git unstage = reset HEAD'
 git status
 git commit -am 'Commit.'
+git status
+git commit -am 'Commit.'
+git log -p .bash_history
+gut status
+git status
+git diff
