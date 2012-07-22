@@ -1,27 +1,3 @@
-a
-echo$SHELL
-echo $SHELL
-python
-perl
-node
-java
-emacs
-vi
-ed
-less
-more
-which
-which which
-ls /usr/bin
-echo $SHELL
-quit
-exit
-
-bash
-exit
-ps
-ps
-exit
 exit
 passwd
 exit
@@ -399,3 +375,126 @@ emacs .gitcongig
 vim .gitconfig 
 vim .gitconfig 
 git status
+cd bin
+ls
+touch test
+ls -l
+chmod +x test
+ls -l
+cp test{,.bak}
+ls -l
+chmod +a test
+chmod a+a
+chmod a+a test
+chmod a+a
+chmod +rw
+chmod +rw test
+ls -l
+chmod a+rw test
+ls -l
+cp test test.bak
+ls -l
+rm test.bak 
+cp test test.bak
+ls -l
+rm test.bak
+cp  -p test{,.bak}
+ls -l
+rm *
+ls -l
+ls
+git status
+git log -p
+cd ..
+git log -p
+git log -p
+git log -p
+git status
+git diff
+vim lesshst
+vim .lesshst
+git status
+git diff .gitconfig
+git commit .gitconfig -m "Set user name and email."
+git status
+git add esshst
+git s
+git 
+git add .lesshst
+git diff
+git diff --staged
+git diff --stage
+git diff --cached
+git commit -m 'Add .lesshst.'
+git status
+git commit .bash_history -m "Commit."
+git tag rebasee/master
+git tags
+git tag
+git tag -v
+git show rebasee/master
+git log HEAD~20..rebasee/master
+git log HEAD~20..rebasee/master --
+git log HEAD~10..rebasee/master --
+git log HEAD~10..rebasee/master --
+git log -p
+git log -p
+git --he
+git --no-pager log -p
+git --no-pager log -p
+git tag 
+git --no-pager log -p
+git tag 7616 initial
+git tag initial 7616
+git show 7616
+git show 7616
+git tags
+git tag
+git rev-parse HEAD rebasee/master
+git --no-pager log -p
+vim bin/i-made-these
+vim bin/i-made-these
+vim bin/git-i-made-these
+git-i-made-these
+chmod +x bin/i-made-these
+git-i-made-these
+chmod 
+git-i-made-these
+git i-made-these
+git i-made-these
+vim bin/git-i-made-these
+vim bin/git-i-made-these
+vim .vimrc
+git status
+git diff
+vim .vimrc
+vim bin/git-i-made-these
+help funxtion
+help funcyion
+help function
+vim bin/git-i-made-these
+w
+vim bin/git-i-made-these
+cat bin/git-i-made-these
+vim bin/git-i-made-these
+cat bin/git-i-made-these
+vim bin/git-i-made-these
+git i-made-these
+git status
+git add .vimrc
+git diff
+git diff --cached
+git commit -m 'Enable vim syntax highlighting.'
+git status
+git .viminfo
+git add .viminfo
+git diff --cached
+git reset HEAD .viminfo
+git status
+git reset HEAD -- .viminfo
+git reset HEAD
+git reset .viminfo
+git
+git config --global alias.unstage 'reset HEAD'
+git help unstage
+git unstage
