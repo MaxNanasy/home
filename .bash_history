@@ -358,3 +358,44 @@ gcc zpipe.c 2>&1 | less
 gcc zpipe.c 2>&1 | less
 git --version
 git --version
+git status
+git reflog
+git rebase -i HEAD^
+git commit .bash_history -m com
+git commit --amend
+git rebase -i HEAD^
+git rebase -i HEAD^
+git log --stat
+git log --stat
+git rebase -i c448
+git rebase -i c448^
+git status
+git show
+git reset .gitignore
+git reset HEAD .gitignore
+git status
+git reset HEAD^ .gitignore
+git status
+git diff
+git diff --staged 
+git diff --stage
+git diff --cached
+git diff --cached HEAD
+git diff --cached HEAD^
+git commit --amend -m commit
+git log --stat
+git status
+git diff
+git commit .gitignore -m 'Remove dead .gitignore reference.'
+git rebase --continue
+git log -p
+cat .gitcongig
+cat .gitconfig
+git log
+git config --global user.name "Max Nanasy"
+  git config --global user.email max.nanasy@gmail.com
+cat .gitconfig
+emacs .gitcongig
+vim .gitconfig 
+vim .gitconfig 
+git status
