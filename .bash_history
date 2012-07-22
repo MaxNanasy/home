@@ -1,41 +1,3 @@
-ls -lRd /var/mobile/Library/Downloads
-ls -l /var/mobile/Library/Downloads
-ls -l /var/mobile/Library/Downloads
-ls -l /var/mobile/Documents
-ls -l /var/mobile/Document
-ls -l /var/mobile/DocumentS
-ls -l /var/mobile/Documents
-vi
-ed
-see
-see
-sed
-sed | less
-sed | less
-sed | less
-reset
-reset
--man reset
-man reset
-links
-elinks
-git
-git
-git diff
-git --version
-cd src
-mkdir src
-cd src
-git init
-git commit -h
-git commit --allow-empty -m 'Initial commit.'
-git log
-git log -p
-git log --color
-cd ..
-git init
-echo ~
-pwd
 git status
 ls applications
 ls -a applications
@@ -498,3 +460,41 @@ git diff
 git commit -am 'Commit.'
 git i-made-these
 cat -n /usr/bin/git-filter-branch
+vim .gitconfig
+#git config --global alias.i-made-this 'filter-branch --env-filter  i-made-this.env-filter
+git config --global alias.i-made-this 'filter-branch --env-filter i-made-this.env-filter'
+git i-made-this
+mv bin/git-i-made-these  bin/i-made-this.env-filter
+git i-made-this
+ls bin
+mv bin/i-made-{this,these}
+mv bin/i-made-{this,these}.env-filter
+git i-made-this
+git config --global alias.i-made-this 'filter-branch --env-filter i-made-these.env-filter'
+git status
+git commit .bas^ -m 'Commit.'
+git commit .bas* -m 'Commit.'
+git diff
+git commit .bas* -m 'Add git aluas for i-made-this.'
+git commit .git* -m 'Add git aluas for i-made-this.'
+git status
+git commit .gitconfig -m 'Add git aluas for i-made-this.'
+git status
+git i-made-this
+git status
+vim .gitignore
+git commit .gitconfig -m 'git ignore /.viminfo'
+git commit .gitignore -m 'git ignore /.viminfo'
+git status
+git i-made-this
+git status
+rm bin/i-made-these
+vim bin/i-made-these.env-filter 
+git i-made-this
+vim bin/i-made-these.env-filter 
+git i-made-this
+vim bin/i-made-these.env-filter 
+git i-made-this
+vim bin/i-made-these.env-filter 
+vim bin/i-made-these.env-filter 
+git i-made-this
