@@ -1,10 +1,3 @@
-git status
-ls applications
-ls -a applications
-ls Applications
-git status
-cat .forward
-ls -A
 ls -Al
 git commit --allow-empty -m 'Initial commit.'
 ls Media
@@ -498,3 +491,10 @@ git i-made-this
 vim bin/i-made-these.env-filter 
 vim bin/i-made-these.env-filter 
 git i-made-this
+vim bin/i-made-these.env-filter 
+git i-made-this
+git i-made-this
+git status
+git commit .bas* -m 'Commit.'
+git i-made-this
+git i-made-this 
