@@ -1,14 +1,3 @@
-exit
-passwd
-exit
-passwd
-passwd root
-sudo passwd root
-su
-ps
-which sh
-ls -l $(which sh)
-echo a{b,c}d
 ssh localhost
 exit
 ls /var/mobile
@@ -498,3 +487,14 @@ git
 git config --global alias.unstage 'reset HEAD'
 git help unstage
 git unstage
+get rm --cached
+git rm --cached 
+git rm --cached .viminfo
+git status
+git diff .gitconfig
+#git commit .gitconfig -m 'git alias.unstage = reset HEAD'
+#git commit .gitconfig -m 'git auunstage = reset HEAD'
+#git commit .gitconfig -m 'git unstage = reset HEAD'
+git commit .gitconfig -m 'git unstage = reset HEAD'
+git status
+git commit -am 'Commit.'
