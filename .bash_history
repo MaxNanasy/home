@@ -1,6 +1,3 @@
-ls -l /var/mobile/Library
-ls -l /var/mobile/Library | less
-chmod a+w /var/mobile/Library/Downloads
 ls -lRd /var/mobile/Library/Downloads
 ls -l /var/mobile/Library/Downloads
 ls -l /var/mobile/Library/Downloads
@@ -498,3 +495,6 @@ git log -p .bash_history
 gut status
 git status
 git diff
+git commit -am 'Commit.'
+git i-made-these
+cat -n /usr/bin/git-filter-branch
