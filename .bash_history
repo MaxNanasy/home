@@ -1,37 +1,3 @@
-ls -Al
-git commit --allow-empty -m 'Initial commit.'
-ls Media
-ls src
-ls -A src
-rm -rf src/.git
-touch .gitgnorr
-rm .gitgnorr
-touch .gitgnore
-la media
-ls media
-ls Media
-ls
-ls Library
-la
-ls
-ls -l
-ls Documents
-ls
-echo '*
-echo '/*
-!/.gitignore
-!/src' > .gitignore
-ls
-git status
-git add -A
-git add .
-git commit
-vi
-echo $EDITOR
-vim
-vim
-vim
-vim .gitconfig
 git config --global ui.color auto
 git status
 git status --color
@@ -498,3 +464,37 @@ git status
 git commit .bas* -m 'Commit.'
 git i-made-this
 git i-made-this 
+git i-made-this 
+git commit .bas* -m 'Commit.'
+git i-made-this 
+git log
+git log
+git log
+git log
+git reflog
+git reflog
+git reflog
+git branch -a
+git tag -a
+git tag
+cat .git/refs/
+s .git/refs/
+ls .git/refs/
+ls .git/refs/heads
+ls .git/refs/original
+ls .git/refs/original/refe
+ls .git/refs/original/refs
+ls .git/refs/original/refs/heads
+ls .git/refs/original/refs/heads/master
+cat .git/refs/original/refs/heads/master
+git rev-parse head
+git rev-parse HEAD
+git log
+git rev-parse HEAD
+git rev-parseheads/master
+git rev-parse heads/master
+git rev-parse original/heads/master
+git rev-parse original/refs/heads/master
+git rev-parse HEAD^
+git update-ref -d original/refs/heads/master
+git update-ref -d original/refs/heads/master HEAD^
