@@ -3,3 +3,5 @@
 [user]
 	name = Max Nanasy
 	email = max.nanasy@gmail.com
+[alias]
+	unstage = reset HEAD
