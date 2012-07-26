@@ -1,408 +1,3 @@
-git config --global ui.color auto
-git status
-git status --color
-git diff
-git status
-ls .gitconfig
-git add .gitconfig
-git add -f .gitconfig
-git diff
-git status
-git commit
-git show
-git help config
-aptitude search man
-aptitude search man | less
-aptitude search manpage
-git status
-git show
-sed -i '' s/color/ui/ .gitconfig
-sed -i s/color/ui/ .gitconfig
-git status
-git diff
-git diff --word-diff
-sed -i s/\[ui/[color/ .gitconfig
-sed -i s/\[ui/[color
-sed -i 's/\[ui/[color' .gitconfig
-sed -iE 's/\[ui/[color/ .gitc*
-a'
-sed -iE 's/\[ui/[color/' .gitconfig
-git diff
-git commit -m 'Fix color.ui=auto issue.'
-git commit -am .'
-git commit -am
-git commit -a
-git show
-ls -A
-rm .gitconfigE
-cat .gitignore
-vim .gitignore
-cat .gitignore
-git diff
-git status
-vim .gitignore
-git status
-git add .
-git diff
-git status
-cat .gitgnore
-cat .gitignore
-git rm .gitgnore
-git rm -f .gitgnore
-git diff
-git diff .gitignore
-git diff --staged
-git diff --stage
-git diff --index
-git diff --cached
-git status
-git status
-vin .gitignore
-vim .gitignore
-echo $SHELL
-exit
-vim .gitignore
-git status
-git add .gitignore
-git diff --cached
-git r
-git rm --cached .ssh
-git rm --cached -r .ssh
-git status
-la .ssh
-la .ssh
-ls .ssh
-git com
-git co
-#git commit -am 'Track most 
-git commit -am 'Track most dot-files.'
-echo $SHELL
-bash
-exit
-cd bin
-git init bin
-mkdir bin
-cd bin
-git init
-cd ..
-vim .gitignore
-git commit -am 'Remove dead .gitignore reference.'
-git show
-git commit rebase -i HEAD^
-git commit rebase -i HEAD~
-git revparse HEAD
-git rev-parse HEAD
-git rev-parse HEAD^
-git  rebase -i 133e5
-git status
-git --version
-git rebase --interactive HEAD^
-git diff
-git 
-git --version
-locate man
-vi .bashrc
-vim .bashrc
-. .bashrc
-ls -A
-echo $PATH
-. .bashrc
-. .ba*
-source .bashrc
-cat .bashrc
-git help -w
-git help
-git help rebase
-git help rebase
-git help -w rebase
-git status
-echo $PATH
-. .bashrc
-echo {a,b}
-exit
-git status
-echo $PATH
-. .bashrc
-bash .bashrc
-echo $PATH
-bash
-echo {a,b}
-cat /etc/shells
-cat /etc/shell
-cat /etc/passwd
-which bash
-chsh
-passwd --help
-sudo
-sudoedit
-sudoedit /etc/passwd
-su
-sudoedit /etc/passwd
-ls /etc
-ls /etc/
-cat /etc/master.passwd
-sudo cat /etc/passwd
-sudo cat /etc/master.passwd
-sudoedit /etc/master.passwd
-echo $PATH
-. .bashrc
-echo $SHELL
-vim .bash_profile
-vim .bash_profile
-vim .bash_profile
-echo $BASH
-echo $SHELL
-echo $PATH
-git status
-rm .*swp
-git add .bash_profile
-git commit -m 'Add .bash_profile that just delegates to .bashrc.'
-git add .bashrc
-cat .bashrc
-git commit -m 'Add .bashrc that prepends ~/bin to $PATH.'
-git status
-git diff
-ls
-cd bin
-ls -A
-git status
-git log
-la refs
-ls refs
-ls .git/refs
-ls .git/refs/tags
-ls .git/refs/heada
-ls .git/refs/heads
-ls .git/
-cat .git/index
-zpipe
-gcc
-gcc --version
-dpkg -i Documents/fake-libgcc_1.0_iphoneos-arm.deb 
-dpkg -i Documents/fake-libgcc_1.0_iphoneos-arm.deb 
-sudo dpkg -i Documents/fake-libgcc_1.0_iphoneos-arm.deb 
-gcc
-gcc --version
-wget
-wget -h
-wget -O /dev/stdout http://www.zlib.net/zpipe.c | gcc -
-echo 3 > /dev/stdout
-echo 3 >> /dev/stdout
-ls -l /dev
-echo 3 >> /dev/stdout
-#abc
-set -o vi
-a
-vim
-git diff
-git commit .bash_profile 
-wget -O- http://www.zlib.net/zpipe.c | gcc -
-gcc -h
-gcc --help
-wget -O- http://www.zlib.net/zpipe.c >
-wget -O- http://www.zlib.net/zpipe.c | gcc -xc -
-wget  http://www.zlib.net/zpipe.c>
-wget  http://www.zlib.net/zpipe.c
-gcc -lz zpipe.c
-cd Documents/
-ls 
-cp -r include-2.0-sdk-ready-for-iphone/* /usr/include
-sudo cp -r include-2.0-sdk-ready-for-iphone/* /usr/include
-cd
-gcc zpipe.c
-ls /usr/include
-ls -d  /usr/include
-ls -d  /usr/include
-ls -d  /usr/include/
-ls /usr/include/
-ls -l /usr/include/
-ls -l /usr/include/sys
-sudo chown -R a+r /usr/include
-sudo chmod -R a+r /usr/include
-gcc zpipe.c
-sudo find /usr/include -type d -exec chown a+x {} +
-gcc zpipe.c
-gcc zpipe.c
-gcc zpipe.c 2>&1 | less
-ls -l /usr/include/
-ls -l /usr/include/sys
-ls -l /usr/include/
-sudo find /usr/include -type d -exec echo a+x {} +
-sudo find /usr/include/ -type d -exec echo a+x {} +
-sudo find /usr/include/ -type d -exec echo a+x {} +
-sudo find /usr/include/ -type d -exec chmod a+x {} +
-gcc zpipe.c 2>&1 | less
-gcc zpipe.c 2>&1 | less
-git --version
-git --version
-git status
-git reflog
-git rebase -i HEAD^
-git commit .bash_history -m com
-git commit --amend
-git rebase -i HEAD^
-git rebase -i HEAD^
-git log --stat
-git log --stat
-git rebase -i c448
-git rebase -i c448^
-git status
-git show
-git reset .gitignore
-git reset HEAD .gitignore
-git status
-git reset HEAD^ .gitignore
-git status
-git diff
-git diff --staged 
-git diff --stage
-git diff --cached
-git diff --cached HEAD
-git diff --cached HEAD^
-git commit --amend -m commit
-git log --stat
-git status
-git diff
-git commit .gitignore -m 'Remove dead .gitignore reference.'
-git rebase --continue
-git log -p
-cat .gitcongig
-cat .gitconfig
-git log
-git config --global user.name "Max Nanasy"
-  git config --global user.email max.nanasy@gmail.com
-cat .gitconfig
-emacs .gitcongig
-vim .gitconfig 
-vim .gitconfig 
-git status
-cd bin
-ls
-touch test
-ls -l
-chmod +x test
-ls -l
-cp test{,.bak}
-ls -l
-chmod +a test
-chmod a+a
-chmod a+a test
-chmod a+a
-chmod +rw
-chmod +rw test
-ls -l
-chmod a+rw test
-ls -l
-cp test test.bak
-ls -l
-rm test.bak 
-cp test test.bak
-ls -l
-rm test.bak
-cp  -p test{,.bak}
-ls -l
-rm *
-ls -l
-ls
-git status
-git log -p
-cd ..
-git log -p
-git log -p
-git log -p
-git status
-git diff
-vim lesshst
-vim .lesshst
-git status
-git diff .gitconfig
-git commit .gitconfig -m "Set user name and email."
-git status
-git add esshst
-git s
-git 
-git add .lesshst
-git diff
-git diff --staged
-git diff --stage
-git diff --cached
-git commit -m 'Add .lesshst.'
-git status
-git commit .bash_history -m "Commit."
-git tag rebasee/master
-git tags
-git tag
-git tag -v
-git show rebasee/master
-git log HEAD~20..rebasee/master
-git log HEAD~20..rebasee/master --
-git log HEAD~10..rebasee/master --
-git log HEAD~10..rebasee/master --
-git log -p
-git log -p
-git --he
-git --no-pager log -p
-git --no-pager log -p
-git tag 
-git --no-pager log -p
-git tag 7616 initial
-git tag initial 7616
-git show 7616
-git show 7616
-git tags
-git tag
-git rev-parse HEAD rebasee/master
-git --no-pager log -p
-vim bin/i-made-these
-vim bin/i-made-these
-vim bin/git-i-made-these
-git-i-made-these
-chmod +x bin/i-made-these
-git-i-made-these
-chmod 
-git-i-made-these
-git i-made-these
-git i-made-these
-vim bin/git-i-made-these
-vim bin/git-i-made-these
-vim .vimrc
-git status
-git diff
-vim .vimrc
-vim bin/git-i-made-these
-help funxtion
-help funcyion
-help function
-vim bin/git-i-made-these
-w
-vim bin/git-i-made-these
-cat bin/git-i-made-these
-vim bin/git-i-made-these
-cat bin/git-i-made-these
-vim bin/git-i-made-these
-git i-made-these
-git status
-git add .vimrc
-git diff
-git diff --cached
-git commit -m 'Enable vim syntax highlighting.'
-git status
-git .viminfo
-git add .viminfo
-git diff --cached
-git reset HEAD .viminfo
-git status
-git reset HEAD -- .viminfo
-git reset HEAD
-git reset .viminfo
-git
-git config --global alias.unstage 'reset HEAD'
-git help unstage
-git unstage
-get rm --cached
-git rm --cached 
-git rm --cached .viminfo
-git status
 git diff .gitconfig
 #git commit .gitconfig -m 'git alias.unstage = reset HEAD'
 #git commit .gitconfig -m 'git auunstage = reset HEAD'
@@ -498,3 +93,408 @@ git rev-parse original/refs/heads/master
 git rev-parse HEAD^
 git update-ref -d original/refs/heads/master
 git update-ref -d original/refs/heads/master HEAD^
+a=b=c
+echo $a
+echo $b
+exit
+git update-ref -d refs/original/refs/heads/master HEAD^
+ls .git/refs/original/refs/heads/master
+ls .git/refs/original/refs/heads
+git i-made-this 
+git status
+git commit .bas* -m 'Commit.'
+git i-made-this 
+bash
+vim bin/i-made-these.env-filter 
+vim bin/i-made-these.env-filter 
+vim bin/i-made-these.env-filter 
+vim bin/i-made-these.env-filter 
+export 
+X=a
+export "$X=b"
+echo $a
+exit
+vim bin/i-made-these.env-filter 
+jobs
+vim bin/i-made-these.env-filter 
+git status
+cd bin
+git status
+cd ..
+vim bin/i-made-these.env-filter 
+vim bin/i-made-these.env-filter 
+help export
+help exportsh
+bash
+vim bin/i-made-these.env-filter 
+vim bin/i-made-these.env-filter 
+vim bin/i-made-these.env-filter 
+git status
+vim bin/i-made-these.env-filter 
+cd bin
+git status
+git 
+git config --global core.excludesfile ~/.gitignore_global'
+git config --global core.excludesfile
+git config --global core.excludesfile '~/.gitignore_global'
+git config --global core.excludesfile
+git status
+vim .gitignore_global
+cd bin
+git status
+cd ..
+git config --global core.excludesfile ~/.gitignore_global'
+git config --global core.excludesfile ~/.gitignore_global
+cd bin
+git status
+cd bin
+git status
+git config --global core.excludesfile '$HOME/.gitignore_global'
+git config --global core.excludesfile ~/.gitignore_global
+git config --global core.excludesfile '$HOME/.gitignore_global'
+git config --global core.excludesfile
+git status
+git config --global core.excludesfile
+git config --global core.excludesfile ~/.gitignore_global
+git config --global core.excludesfile
+cd bin
+git status
+cd ..
+mv {git-,}i-*
+mv {,git-}i-*
+cd -
+mv {,git-}i-*
+ls
+mv git-i-\* git-i-made-this.env-filter
+ls
+ls -l
+rm -r .git
+rm -r .git
+cd ..
+git status
+ls bin
+vim .gitignore
+git digf
+git diff
+git diff .gitignore
+git commit .gitignore -m 'Reorganize .gitignore.'
+vim .gitignore
+git diff .gitignore
+git diff .gitconfig
+vim .gitconfig
+git diff .gitconfig
+git diff .gitconfig
+git diff --word-diff .gitconfig
+git --version
+git diff --color-words .gitconfig
+git diff --color-words .gitconfig
+reset
+git diff --color-words .gitconfig
+git --no-pager diff --color-words .gitconfig
+git diff --color-words .gitignor
+git diff --color-words .gitignore
+git checkout .gitignore
+cd bin
+git init
+git status
+cd ..
+git --no-pager diff --color-words .gitconfig
+mv bin/git-i-made-{this,these}.env-filter 
+git i-made-these
+vim .gitconfig
+vim .gitconfig
+git i-made-these
+git status
+git add .gitignore_*
+git add -p .gitconfig
+git add -i .gitconfig
+git add -p .gitconfig
+git status
+git add -N .gitconfig
+git add -p .gitconfig
+git add -i .gitconfig
+ls -l /usr/bin/git
+ls -l /usr/bin/git*
+git-add--interactive
+ls
+ifconfig -a
+wget http://coredev.nl/cydia/coredev.pub
+apt-key add coredev.pub
+ls coredev.pub
+file coredev.pub
+sudo apt-key add coredev.pub
+echo 'deb http://coredev.nl/cydia iphone main' > /etc/apt/sources.list.d/coredev.nl.list
+sudo echo 'deb http://coredev.nl/cydia iphone main' > /etc/apt/sources.list.d/coredev.nl.list
+sudo "echo 'deb http://coredev.nl/cydia iphone main' > /etc/apt/sources.list.d/coredev.nl.list"
+sudo -c "echo 'deb http://coredev.nl/cydia iphone main' > /etc/apt/sources.list.d/coredev.nl.list"
+echo 'deb http://coredev.nl/cydia iphone main' | sudo tee /etc/apt/sources.list.d/coredev.nl.list
+git status
+git add -p .gitconfig
+git add -p .gitconfig
+git add -i .gitconfig
+git status
+git diff --cached
+vim .gitignore_global
+git add -e .gitconfig
+git add -s .gitconfig
+git add -p .gitconfig
+git reset .gitconfig
+git reset HEAD .gitconfig
+git status
+git add .gitignore_global
+git status
+df -h
+df -h .
+cd src
+git clone git://github.com/git/git.git
+git show
+cd src/git
+git show
+echo $COLUMNS
+echo $COLUMNS
+echo $COLUMNS
+echo $COLUMNS
+git show
+git log
+git log --grep='War '
+git log -p --grep='War '
+A
+cd src/git 
+git --no-pager grep reflog
+git --no-pager grep --color reflog
+git --no-pager grep hhh reflog
+git --no-pager --color  grep reflog
+git grep reflog
+git log
+git grep reflog
+cd src
+git status
+cd ..
+cd bin
+git status
+git add git-i-made-these.env-filter 
+cat git-i-made-these.env-filter 
+vim git-i-made-these.env-filter 
+vim git-i-made-these.env-filter 
+cat git-i-made-these.env-filter 
+git diff --cached
+git diff
+git reset 
+git unstage
+git reglog
+git reflog
+git log
+cr scripts
+cd scripts
+cd bin
+git status
+git rm --cached *
+git stash
+git rm --cached *
+git status
+git reflog
+cd bin
+git rm --cached *
+git rm -i --cached *
+git rm -f --cached *
+git status
+gi
+git commit --allow-empty --allow-empty-message -m ''
+git commit --allow-empty  -m ''
+git commit --allow-empty  -m 'Initial commit.'
+git log
+git log -p
+git commit --amend -v
+git reset
+git log
+git reset HEAD~
+git log
+git status
+cd bin
+git commit --allow-empty  -m 'Initial commit.'
+git status
+git log -p
+git add -A
+git add -a
+git add .
+git commit -m 'Add msg-filter to set author and commiter to same name and email.'
+git log
+git log --graph
+git remote add origin https://github.com/MaxNanasy/scripts
+git remote
+git remote -d origin
+git remote rm origin
+cd bin
+git remote add origin https://github.com/MaxNanasy/scripts
+git push
+git remote add origin git@github.com:MaxNanasy/scripts.git
+git remote -v
+t push
+git push
+which publickey
+which -a publickey
+sudo which -a publickey
+ls
+cd bin
+git push
+cd ..
+git remote list
+git remote
+git remote -v
+git remote rm origin
+cd bin
+vim ~/.bash_profile.
+vim ~/.bash_profile
+. .bash_profile
+. ~/.bash_profile
+g
+alias
+ifile
+alias
+ls
+csh
+zsh
+echo $SHELL
+cd bin
+e
+alias e='$EDITOR'
+e
+e ~/.bashrc
+e ~/.bash_profile 
+g status
+e .git/config
+git push
+e .git/config
+git push
+ssh-add -l
+ssh-add -l
+exit
+ls .ssh
+ls -l .ssh
+ssh localhost
+cd bin
+e .git/config
+ssh kernel.org
+e .git/config
+git push
+ssh-add
+ssh-add -l
+exec ssh-add -l
+ssh git@github.com
+cat .ssh/known_hosts 
+sudo ssh git@github.com
+sudo cat /root/.ssh/known_hosts 
+ls -l  .ssh/ 
+ls -ld .ssh
+ssh-add -l
+sudo ssh-add -l
+ps -ef | grep ssh
+ssh-agent
+ssh-add -l
+ps -ef | grep ssh
+sudo ssh-add -l
+ls -ld .ssh
+ls -l .ssh
+exec ssh-add
+ps -ef | grep ssh
+ssh-aent
+ssh-agent
+ps -ef | grep ssh
+killall ssh-agent
+ps -ef | grep ssh
+eval $(ssh-agent)
+ps -ef | grep ssh
+cd bin
+g push
+sudo g push
+sudo git push
+ls -lAr
+ls -lAR
+ssh-add -l
+ssh-add
+ls
+ls -A
+rm .i*
+cd ..
+ls -Al .ssh
+ssh-add -l
+ssh-add identity
+ssh-add .ssh
+ssh-add -l
+ls -lAR .ssh
+ssh -vT git@github.com
+ssh-add -l
+ps -ef
+ps -ef |grep ssh
+eval $(ssh-agent)
+ps -ef |grep ssh
+kill 14041
+ps -ef |grep ssh
+ssh-keygen
+ssh -vT git@github.com
+cd src
+g push
+cd ../bin
+g push
+ssh-add -l
+ssh -vT git@github.com
+cd ../bin
+g push
+ssh-add -l
+ssh -vT git@github.com
+
+
+
+
+/
+eval $(ssh-agent)
+ssh-add .ssh/
+ssh-add -l
+ssh-add .ssh/id_rsa
+ssh-add -l
+ssh-add -l
+cat .ssh/id_rsa
+cat .ssh/id_rsa.pub
+pbcopy
+                              -ba
+ssh-add -l | pbcopy
+eval $(ssh-agent)
+ssh-add -l | pbcopy
+eval $(ssh-agent)
+ssh-add .ssh/id_rsa
+ssh-add -l | pbcopy
+cat .ssh/id_rsa.pub
+cat .ssh/id_rsa.pub
+cat .ssh/id_rsa.pub | pbcopy
+ssh -vT git@github.com
+cd bin
+g push
+g push master
+g push origin master
+cd bin
+e rev-by
+vi test.c
+e test.c
+e test
+e test
+e test
+e test
+rm test
+cd bin
+ls
+chmod +rev-by
+chmod +x rev-by
+e rev-by
+reviewed-by
+rev-by
+echo abc def 'ghi
+jkl' | rev-by
+echo abc def 'ghi
+jkl' | rev-by A
+mv rev-by revby
+echo abc def 'ghi
+jkl' | revby A
+g add revby
+git commit -m 'Add script to add "- Reviewed by $REVIEWERS" line.'
+g push
+cd ..

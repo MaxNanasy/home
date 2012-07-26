@@ -5,4 +5,6 @@
 	email = max.nanasy@gmail.com
 [alias]
 	unstage = reset HEAD
-	i-made-this = filter-branch --env-filter i-made-these.env-filter
+	i-made-these = filter-branch --env-filter git-i-made-these.env-filter
+[core]
+	excludesfile = /var/mobile/.gitignore_global
