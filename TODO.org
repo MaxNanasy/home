@@ -1,0 +1,4 @@
+* TODO git object model without commit.parents
+** parents are inferred when necessary
+*** like copied or moved files
+**** TODO Analogy for each of copy and move with commit?
