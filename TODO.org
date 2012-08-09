@@ -2,3 +2,4 @@
 ** parents are inferred when necessary
 *** like copied or moved files
 **** TODO Analogy for each of copy and move with commit?
+* TODO cd .git && git init
